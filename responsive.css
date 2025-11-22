@@ -1,0 +1,110 @@
+@media(max-width: 768px) {
+    .header-right {
+        display: none;
+    }
+
+    .slideimg:nth-of-type(1) {
+        background-image: url('img/mv_01_sp.png');
+        animation-delay: 0s;
+    }
+    .slideimg:nth-of-type(2) {
+        background-image: url('img/mv_02_sp.png');
+        animation-delay: 3s;
+    }
+    .slideimg:nth-of-type(3) {
+        background-image: url('img/mv_03_sp.png');
+        animation-delay: 6s;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .message {
+        background-image: url('img/home_bg_sp.png');
+    }
+    .footer-logo img {
+        width: 100px;
+        margin-right: 10px;
+    }
+    .footer-wrapper {
+        padding: 100px 15px 100px 20px;
+    }
+    .footer-right p {
+        font-size: 14px;
+    }
+    .footer-right p:first-child {
+        font-size: 17px;
+    }
+    nav {
+        padding: 0 5px;
+    }
+    .contents {
+        padding: 0 5px;
+    }
+    .contents-wrapper {
+        padding: 0 5px;
+    }
+    .menu {
+        padding: 0 30px;
+    }
+    .question {
+        width: 100%;
+    }
+    .question::after {
+        width: 1.3em;
+        height: 1.3em;
+    }
+    .type-title {
+        font-size: 14px;
+    }
+    dl {
+        display: block;
+    }
+    dl dt {
+        width: 100%;
+    }
+    dl dd {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .question::after {
+        top: 15%;
+        left: 93%;
+    }
+    .title-box::after {
+        top: 35%;
+    }
+    .merrit ol {
+        font-size: 15px;
+    }
+    .merrit ol li::before {
+        top: 10%;
+    }
+    .menu dl {
+        padding-top: 0;
+    }
+    .menu dl {
+        font-size: 18px;
+    }
+    .menu dl dt {
+        padding: 30px 0;
+    }
+    .menu dl dd {
+        margin-bottom: 0;
+    }
+    .menu {
+        margin-bottom: 0;
+    }
+    .map {
+        display: none !important;
+    }
+    .map-sp {
+        display: block !important;
+        margin-top: 30px;
+    }
+    .parent:last-child {
+        margin-bottom: 70px;
+    }
+    .contents-title {
+        font-size: 35px;
+    }
+}
